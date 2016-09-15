@@ -1,2 +1,0 @@
-# BookAirBnB
-Assignment for BookAirBnB
