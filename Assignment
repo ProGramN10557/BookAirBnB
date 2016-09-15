@@ -55,4 +55,4 @@ vishaal.getthelocation(location);
 CreditCard.makespayment(airbnb);
 app.accepetpayment(CreditCard);
 }
-}
+
