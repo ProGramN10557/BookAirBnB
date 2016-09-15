@@ -1,0 +1,58 @@
+Scenario : Booking an Airbnb
+Description : A tourist wants to book a house on Airbnb app.
+
+object : tourist 
+state: name 
+behaviour : openapp(), findhouse(),paytheCreditCard()
+
+object : app
+state : list of all the available houses, features
+behaviour : DisplayHouse(), acceptthepayment()
+
+object : house
+state: price, location 
+behaviour : gettheprice(), getthelocation()
+
+object : CreditCard
+state : amount, card number 
+
+class tourist{
+string location;
+void openapp(airbnb)
+House findhouse(house[])
+CreditCard makeapayment(airbnb)
+}
+
+class app{
+Location[] location;
+House[] house;
+Void DisplayHouses();
+void acceptpayment ( CreditCard Card_1)
+}
+
+class house{
+string location
+Float price;
+Float gettheprice()
+string getthelocation();
+}
+
+class CreditCard{
+int card number
+Float amount;
+}
+
+class bookairbnb{
+public static void main(strings[] args){
+app airbnb = new app;
+airbnb.name = "airbnb"
+tourist vishaal = new tourtist;
+vishaal.name = "vishaal"
+
+
+vishaal.openapp(airbnb);
+vishaal.getthelocation(location);
+CreditCard.makespayment(airbnb);
+app.accepetpayment(CreditCard);
+}
+}
